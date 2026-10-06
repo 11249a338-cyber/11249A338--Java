@@ -1,3 +1,22 @@
+/*
+AIM:
+To write a Java program to demonstrate thread control methods such as yield(), sleep(), and thread termination using break.
+
+ALGORITHM:
+Step-1: Start the program.
+Step-2: Create three classes A, B, and C by extending the Thread class.
+Step-3: In thread A, use Thread.yield() to temporarily give other threads an opportunity to execute.
+Step-4: Display the values of i from 1 to 4 in thread A.
+Step-5: In thread B, display the values of j from 1 to 3.
+Step-6: Use break when j becomes 3 to terminate the loop in thread B.
+Step-7: In thread C, display the values of k from 1 to 5.
+Step-8: When k is 1, use Thread.sleep(1500) to pause thread C for 1500 milliseconds.
+Step-9: Create objects a, b, and c for the three threads.
+Step-10: Start all three threads using the start() method.
+Step-11: Display the message indicating the end of the main thread.
+Step-12: Stop the program.
+
+SOURCE CODE:*/
 import java.io.*;
 
 class A extends Thread {
@@ -52,3 +71,24 @@ class Threadtest {
         System.out.println("exit from main thread");
     }
 }
+/*
+OUTPUT:
+start thread A
+exit from main thread
+from thread B j=1
+thread c=1
+From thread A i=1
+From thread A i=2
+From thread A i=3
+From thread A i=4
+exit from A
+from thread B j=2
+from thread B j=3
+exit from B
+thread c=2
+thread c=3
+thread c=4
+thread c=5
+
+RESULT:
+Thus, the Java program to demonstrate thread control methods yield(), sleep(), and break was successfully executed and the required output was obtained.*/
