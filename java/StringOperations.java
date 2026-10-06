@@ -1,3 +1,23 @@
+/*
+AIM:
+To write a Java program to demonstrate various String operations such as creating strings, finding length, concatenation, comparison, case conversion, replacement, searching, and checking prefixes and suffixes.
+
+ALGORITHM:
+Step-1: Start the program.
+Step-2: Create strings using string literals and the String constructor.
+Step-3: Display the created strings and find their length using length().
+Step-4: Perform string concatenation using + operator and concat() method.
+Step-5: Compare strings using equals(), equalsIgnoreCase(), and compareTo().
+Step-6: Convert a string into uppercase and lowercase using toUpperCase() and toLowerCase().
+Step-7: Replace a particular word using the replace() method.
+Step-8: Compare strings using the == operator.
+Step-9: Find the last occurrence of a substring using lastIndexOf().
+Step-10: Remove digits from a string using replaceAll().
+Step-11: Check whether a string starts or ends with a particular value using startsWith() and endsWith().
+Step-12: Concatenate first name and last name using the + operator.
+Step-13: Display all the results.
+Step-14: Stop the program.
+SOURCE CODE:*/
 public class StringOperations {
     public static void main(String[] args) {
 
@@ -72,4 +92,25 @@ public class StringOperations {
         System.out.println("Full Name: " + fullName);
     }
 }
- 
+/*
+OUTPUT:
+str1: Hello
+str2: World
+Length: 5
+Concatenation: Hello World
+Using concat(): Hello Java
+equals(): true
+equalsIgnoreCase(): true
+compareTo(): 0
+Uppercase: JAVA PROGRAMMING
+Lowercase: java programming
+Replace: Python Programming
+Using == : true
+Last index of Java: 18
+replaceAll(): JavaProgramming
+Starts with program: true
+Ends with .java: true
+Full Name: John Smith
+    
+RESULT:
+Thus, the Java program to demonstrate various String operations and methods was successfully executed and the required output was obtained.*/
