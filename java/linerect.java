@@ -1,3 +1,18 @@
+/*AIM
+To write a Java Applet program to draw lines, rectangles and rounded rectangles using Graphics methods.
+
+ALGORITHM
+Step-1: Start the program.
+Step-2: Import the required Java packages.
+Step-3: Create an Applet class named linerect.
+Step-4: Override the paint(Graphics g) method.
+Step-5: Use drawLine() to draw straight lines.
+Step-6: Use drawRect() to draw a rectangle.
+Step-7: Use fillRect() to draw a filled rectangle
+Step-8: Use drawRoundRect() and fillRoundRect() to draw rounded rectangles.
+Step-9: Display the shapes in the Applet window.
+Step-10: Stop the program. 
+SOURCE CODE:*/ 
 import java.awt.*; 
 import java.io.*; 
 import java.applet.*;
@@ -15,3 +30,5 @@ g.drawLine(100,10,230,140);
 g.drawLine(100,140,230,10);
 }
 }
+/*RESULT:
+Thus, the Java Applet program to draw lines, rectangles and rounded rectangles was executed successfully. */
