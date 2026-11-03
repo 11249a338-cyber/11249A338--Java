@@ -1,6 +1,20 @@
-import java.io.*; import
-java.awt.*; import
-java.applet.*;
+/*
+AIM
+To write a Java Applet program to demonstrate the CardLayout using buttons.
+ALGORITHM
+Step-1: Start the program.
+Step-2: Import the required Java packages.
+Step-3: Create an Applet class implementing ActionListener.
+Step-4: Create a Panel and set its layout to CardLayout.
+Step-5: Create three buttons and add them to the panel.
+Step-6: Register ActionListener for all buttons.
+Step-7: Use buttonCardLayout.next() to display the next button when clicked.
+Step-8: Stop the program.
+SOURCE CODE:*/
+
+import java.io.*;
+importjava.awt.*;
+import java.applet.*;
 import java.awt.event.*;
 /*
 <applet code="carddemo" width=250 height=150>
@@ -32,3 +46,5 @@ public void actionPerformed(ActionEvent e)
 buttonCardLayout.next(buttonPanel);
 }
 }
+/*RESULT
+Thus, the Java Applet program to demonstrate CardLayout using buttons was executed successfully.*/
